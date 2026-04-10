@@ -1,0 +1,5 @@
+directory,todo_count,fixme_count,total_count
+aurora,0,0,0
+aurora/adapters,6,0,6
+aurora/core,9,0,9
+aurora/pipeline,5,0,5
