@@ -1,0 +1,21 @@
+file_path,line_number,tag,content
+aurora/adapters/base.py,10,TODO,        # TODO: define connection timeout parameter in base interface
+aurora/adapters/base.py,19,TODO,        # TODO: add message serialisation / compression support
+aurora/adapters/http_adapter.py,15,TODO,        # TODO: initialise requests.Session with retry configuration
+aurora/adapters/http_adapter.py,19,TODO,        # TODO: close and clean up the underlying HTTP session
+aurora/adapters/http_adapter.py,23,TODO,        # TODO: implement POST with configurable timeout and auth headers
+aurora/adapters/http_adapter.py,24,TODO,        # TODO: parse response and raise on non-2xx status codes
+aurora/core/engine.py,13,TODO,        # TODO: implement dynamic plugin loader via importlib
+aurora/core/engine.py,17,TODO,        # TODO: dispatch task to the correct worker based on task['type']
+aurora/core/engine.py,18,TODO,        # TODO: propagate cancellation token through worker chain
+aurora/core/engine.py,22,TODO,        # TODO: gracefully drain pending tasks before shutdown
+aurora/core/scheduler.py,13,TODO,        # TODO: add priority queue support
+aurora/core/scheduler.py,17,TODO,        # TODO: handle worker crashes and auto-restart failed tasks
+aurora/core/utils.py,26,TODO,    # TODO: implement exponential back-off retry decorator
+aurora/core/utils.py,31,TODO,    # TODO: add JSON-schema validation for the runtime config dict
+aurora/core/utils.py,36,TODO,    # TODO: strip workspace-absolute prefixes and return repo-relative path
+aurora/pipeline/stage.py,15,TODO,        # TODO: wrap handler execution in a try/except and emit metrics
+aurora/pipeline/stage.py,30,TODO,        # TODO: pass context through each stage in order; stop on failure
+aurora/pipeline/stage.py,31,TODO,        # TODO: record per-stage latency for observability
+aurora/pipeline/transform.py,7,TODO,    # TODO: handle list values inside nested dicts
+aurora/pipeline/transform.py,20,TODO,    # TODO: switch to Jinja2 for safe template rendering

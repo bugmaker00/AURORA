@@ -54,3 +54,17 @@ pytest
 - `aurora/pipeline/stage.py:31` — record per-stage latency for observability
 - `aurora/pipeline/transform.py:7` — handle list values inside nested dicts
 - `aurora/pipeline/transform.py:20` — switch to Jinja2 for safe template rendering
+
+### 🔎 Python Backlog Snapshot
+
+Scanned **11** `.py` files on the `dev` branch; found **20 TODOs** and **0 FIXMEs** across **7** files. All outstanding items live in the adapters, core, and pipeline sub-packages — none are marked critical.
+
+| file | TODOs | FIXMEs |
+|------|------:|-------:|
+| `aurora/adapters/base.py` | 2 | 0 |
+| `aurora/adapters/http_adapter.py` | 4 | 0 |
+| `aurora/core/engine.py` | 4 | 0 |
+| `aurora/core/scheduler.py` | 2 | 0 |
+| `aurora/core/utils.py` | 3 | 0 |
+| `aurora/pipeline/stage.py` | 3 | 0 |
+| `aurora/pipeline/transform.py` | 2 | 0 |
