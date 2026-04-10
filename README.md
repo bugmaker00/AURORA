@@ -57,6 +57,8 @@ pytest
 
 ### 🔎 Python Backlog Snapshot
 
+> _Auto-generated 2026-04-10 19:35 UTC — do not edit manually._
+
 Scanned **11** `.py` files on the `dev` branch; found **20 TODOs** and **0 FIXMEs** across **7** files. All outstanding items live in the adapters, core, and pipeline sub-packages — none are marked critical.
 
 | file | TODOs | FIXMEs |
