@@ -1,4 +1,5 @@
 ### 📝 Complete TODO List
+
 - [ ] **aurora/adapters/base.py:10** - define connection timeout parameter in base interface
 - [ ] **aurora/adapters/base.py:19** - add message serialisation / compression support
 - [ ] **aurora/adapters/http_adapter.py:15** - initialise requests.Session with retry configuration
